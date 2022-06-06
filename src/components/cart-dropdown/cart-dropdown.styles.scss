@@ -1,0 +1,32 @@
+
+.cart-dropdown-container {
+    position: absolute;
+    width: 240px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: white;
+    top: 90px;
+    right: 40px;
+    z-index: 5;
+    
+  
+    .empty-message {
+      font-size: 15px;
+      margin: 50px auto;
+    }
+  
+    .cart-items {
+      height: 240px;
+      display: flex;
+      flex-direction: column;
+      overflow:scroll; //I CHANGED THIS SO I COULD DISABLE THE CHECKOUT MAKE SURE TO NOTE IF IT IS NOT FUNCTIONING
+    }
+  
+    button {
+      font-size: 12px;
+      margin-top: auto;
+    }
+  }
